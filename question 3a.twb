@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0415.1946                               -->
+<workbook original-version='18.1' source-build='2020.2.0 (20202.20.0415.1946)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Q1(B)' inline='true' name='federated.09dpk6q1lsa2xn19qpyhm0f75tr4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Q1(B)' name='textscan.07jllu51ybkdyu11qsqsp1vrnqzv'>
+            <connection class='textscan' directory='C:/Masters/Data and Visualization/A1T3' filename='Q1(B).txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.07jllu51ybkdyu11qsqsp1vrnqzv' name='Q1(B).txt' table='[Q1(B)#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+            <column datatype='string' name='gene' ordinal='0' />
+            <column datatype='string' name='function' ordinal='1' />
+            <column datatype='string' name='metabolism' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.07jllu51ybkdyu11qsqsp1vrnqzv' name='Q1(B).txt' table='[Q1(B)#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+            <column datatype='string' name='gene' ordinal='0' />
+            <column datatype='string' name='function' ordinal='1' />
+            <column datatype='string' name='metabolism' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gene</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gene]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>gene</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>function</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[function]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>function</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metabolism</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[metabolism]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>metabolism</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Q1(B).txt]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Q1(B).txt' datatype='table' name='[__tableau_internal_object_id__].[Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2]' role='measure' type='quantitative' />
+      <column caption='Function' datatype='string' name='[function]' role='dimension' type='nominal' />
+      <column caption='Gene' datatype='string' name='[gene]' role='dimension' type='nominal' />
+      <column caption='Metabolism' datatype='string' name='[metabolism]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='8' show-hidden-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Q1(B).txt' id='Q1(B).txt_0A065C1F33A04406BDA73DC170F343C2'>
+            <properties context=''>
+              <relation connection='textscan.07jllu51ybkdyu11qsqsp1vrnqzv' name='Q1(B).txt' table='[Q1(B)#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+                  <column datatype='string' name='gene' ordinal='0' />
+                  <column datatype='string' name='function' ordinal='1' />
+                  <column datatype='string' name='metabolism' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='expression.tab' inline='true' name='federated.0e0g02506l5wnf1fv225y1ei5oem' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Q1(A)' name='textscan.0gz22ym07apynm1fo2l7w1ys38hm'>
+            <connection class='textscan' directory='C:/Masters/Data and Visualization/A1T3' filename='Q1(A).txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0gz22ym07apynm1fo2l7w1ys38hm' name='Q1(A).txt' table='[Q1(A)#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+            <column datatype='string' name='gene' ordinal='0' />
+            <column datatype='integer' name='expr_value' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0gz22ym07apynm1fo2l7w1ys38hm' name='Q1(A).txt' table='[Q1(A)#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+            <column datatype='string' name='gene' ordinal='0' />
+            <column datatype='integer' name='expr_value' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Q1(A).txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gene</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gene]</local-name>
+            <parent-name>[Q1(A).txt]</parent-name>
+            <remote-alias>gene</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(A).txt_2D6CAEA239B245B2ABE4176639F2416E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>expr_value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[expr_value]</local-name>
+            <parent-name>[Q1(A).txt]</parent-name>
+            <remote-alias>expr_value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q1(A).txt_2D6CAEA239B245B2ABE4176639F2416E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='expression.tab' datatype='table' name='[__tableau_internal_object_id__].[Q1(A).txt_2D6CAEA239B245B2ABE4176639F2416E]' role='measure' type='quantitative' />
+      <column caption='Expr Value' datatype='integer' name='[expr_value]' role='measure' type='quantitative' />
+      <column caption='Gene' datatype='string' name='[gene]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='expression.tab' id='Q1(A).txt_2D6CAEA239B245B2ABE4176639F2416E'>
+            <properties context=''>
+              <relation connection='textscan.0gz22ym07apynm1fo2l7w1ys38hm' name='Q1(A).txt' table='[Q1(A)#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+                  <column datatype='string' name='gene' ordinal='0' />
+                  <column datatype='integer' name='expr_value' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4E6262AA-DC45-4524-8851-6F6CCB732B2B}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='expression.tab' name='federated.0e0g02506l5wnf1fv225y1ei5oem' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0e0g02506l5wnf1fv225y1ei5oem'>
+            <column-instance column='[expr_value]' derivation='Attribute' name='[attr:expr_value:qk]' pivot='key' type='quantitative' />
+            <column caption='Expr Value' datatype='integer' name='[expr_value]' role='measure' type='quantitative' />
+            <column caption='Gene' datatype='string' name='[gene]' role='dimension' type='nominal' />
+            <column-instance column='[gene]' derivation='None' name='[none:gene:nk]' pivot='key' type='nominal' />
+            <column-instance column='[expr_value]' derivation='Sum' name='[sum:expr_value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0e0g02506l5wnf1fv225y1ei5oem].[attr:expr_value:qk]' included-values='in-range'>
+            <max>1000</max>
+          </filter>
+          <slices>
+            <column>[federated.0e0g02506l5wnf1fv225y1ei5oem].[attr:expr_value:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0e0g02506l5wnf1fv225y1ei5oem].[sum:expr_value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0e0g02506l5wnf1fv225y1ei5oem].[none:gene:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7384D64A-5173-439D-9F49-E0333DA5B9ED}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EBA536C7-1C46-4CCD-A1A7-71976548A188}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83B5BFFF-B13A-463B-8543-603466E462DB}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0e0g02506l5wnf1fv225y1ei5oem].[none:gene:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ED2787C4-3C17-4CF3-8EB7-7C4E119CDB45}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8BB72DA3-64FB-436E-8DA6-E55630135C2F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='74' name='Sheet 2' width='144'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
