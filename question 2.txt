@@ -1,0 +1,49 @@
+# question 2a
+
+library(WDI)
+WDIsearch("co2.*capita")
+wdi_data <- WDI(indicator=c("EN.ATM.CO2E.PC"),start=2010,end=2010,extra=TRUE)
+wdi_data = as_tibble(wdi_data)
+wdi_data <- WDI(indicator=c("EN.ATM.CO2E.PC"),start=2010,end=2010,extra=TRUE)
+wdi_data = as_tibble(wdi_data)
+glimpse(wdi_data)
+wdi_data <- wdi_data %>%
+  rename(Emit_CO2percap=EN.ATM.CO2E.PC)
+glimpse(wdi_data)
+library(maps)
+dat_map <- map_data("world")
+dim(dat_map)
+head(dat_map)
+library(countrycode)
+dat_map$ccode<- countrycode(dat_map$region,origin="country.name",destination="wb")
+wdi_data$ccode <- countrycode(wdi_data$country,origin="country.name",destination="wb")
+merged <- full_join(dat_map, wdi_data, by="ccode")
+ggplot(merged,aes(x=long,y=lat,group=group,fill=log10(Emit_CO2percap)))+geom_polygon()
+
+
+# question 2b
+
+ggnetplot <- function(Net=Bali){
+  Net <- ggnetwork(Net,layout="kamadakawai")
+  (ggplot(Net, aes(x,y, xend=xend, yend=yend))        
+    + geom_edges(color="lightgrey")                         
+    + geom_nodes(alpha=0.6,size=5) 
+    + geom_nodetext(aes(label=vertex.names),color="blue") 
+    + geom_point()  
+    + theme_blank()) 
+}
+ggnetplot()
+
+
+# question 2c
+
+ggnetplot <- function(Net=Bali){
+ Net <- ggnetwork(Net,layout="kamadakawai")
+ (ggplot(Net, aes(x,y, xend=xend, yend=yend))       
+   + geom_edges(color="lightgrey")                         
+   + geom_nodes(alpha=0.3,size=3) 
+   + geom_nodetext(aes(label=role),color="blue") 
+   + geom_point() 
+   + theme_blank())
+}
+ggnetplot()
